@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>video2canvas demo</title>
+  <style>
+    html, body { width: 100%; height: 100%; margin: 0; padding: 0; }
+    #video { width: 375px; height: auto;}
+  </style>
+</head>
+<body>
+  <video id="video" src="./video/demo.mp4"></video>
+
+  <script src="./js/video2canvas.min.js"></script>
+  <script>
+    var oldVideo = document.getElementById('video');
+    var video2canvas = new VideoToCanvas(oldVideo);
+    video2canvas.play();
+  </script>
+</body>
+</html>
