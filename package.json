@@ -1,0 +1,24 @@
+{
+  "name": "video2canvasofjune",
+  "version": "1.0.0",
+  "description": "make your video render to canvas",
+  "main": "video2canvas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiyueximeng/video2canvas.git"
+  },
+  "keywords": [
+    "video",
+    "to",
+    "canvas"
+  ],
+  "author": "June",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiyueximeng/video2canvas/issues"
+  },
+  "homepage": "https://github.com/qiyueximeng/video2canvas#readme"
+}
